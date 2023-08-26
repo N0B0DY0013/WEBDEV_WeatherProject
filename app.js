@@ -20,7 +20,7 @@ app.post("/", function(req, res) {
     if(req.body.place_name != "") {
 
         var place = req.body.place_name;
-        const app_id = "e5ac1cf4338cac73401e9464548f9171";
+        const app_id = "XXXXXXXXXXXXXXXX";
         const units = "metric"
 
         const url = "https://api.openweathermap.org/data/2.5/weather?q="+place+"&appid="+app_id+"&units="+units;
